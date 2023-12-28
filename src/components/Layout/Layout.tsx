@@ -4,7 +4,9 @@ import * as S from "./styles"
 
 const Layout: React.FC<PropsWithChildren> = ({children}) => {
     return (
-        <S.Layout>{children}</S.Layout>
+        <S.Layout>
+            <S.Content>{children}</S.Content>
+        </S.Layout>
     );
 }
 
