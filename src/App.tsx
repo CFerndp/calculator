@@ -1,10 +1,11 @@
 import React from "react";
+import Layout from "@/components/Layout/Layout.tsx";
 
 
 const App: React.FC = () => {
 
     return (
-        <h1>Hello There :)</h1>
+        <Layout>Hello There :)</Layout>
     )
 }
 
